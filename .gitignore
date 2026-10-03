@@ -1,0 +1,8 @@
+backend/venv/
+__pycache__/
+*.pyc
+.env
+
+kaushal-saath/node_modules/
+kaushal-saath/dist/
+.DS_Store

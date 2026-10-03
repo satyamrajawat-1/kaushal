@@ -1,0 +1,68 @@
+import type { Concern } from '../types/counselling';
+
+export const concerns: Concern[] = [
+  {
+    id: 'income',
+    name: 'Income & Earnings',
+    nameHi: 'आय और कमाई',
+    description: 'Will this career provide enough income to support the family?',
+    descriptionHi: 'क्या यह करियर परिवार का भरण-पोषण करने के लिए पर्याप्त आय देगा?',
+    icon: 'IndianRupee',
+  },
+  {
+    id: 'job-security',
+    name: 'Job Security',
+    nameHi: 'नौकरी की सुरक्षा',
+    description: 'How stable are jobs in this field?',
+    descriptionHi: 'इस क्षेत्र में नौकरियां कितनी स्थिर हैं?',
+    icon: 'Shield',
+  },
+  {
+    id: 'safety',
+    name: 'Safety',
+    nameHi: 'सुरक्षा',
+    description: 'Is the work environment safe for the learner?',
+    descriptionHi: 'क्या कार्य वातावरण शिक्षार्थी के लिए सुरक्षित है?',
+    icon: 'HeartPulse',
+  },
+  {
+    id: 'migration',
+    name: 'Migration',
+    nameHi: 'प्रवास',
+    description: 'Will the learner need to move away from home?',
+    descriptionHi: 'क्या शिक्षार्थी को घर से दूर जाना होगा?',
+    icon: 'MapPin',
+  },
+  {
+    id: 'career-growth',
+    name: 'Career Growth',
+    nameHi: 'करियर विकास',
+    description: 'What are the long-term progression opportunities?',
+    descriptionHi: 'दीर्घकालिक प्रगति के अवसर क्या हैं?',
+    icon: 'TrendingUp',
+  },
+  {
+    id: 'further-education',
+    name: 'Further Education',
+    nameHi: 'आगे की शिक्षा',
+    description: 'Can the learner pursue higher studies after training?',
+    descriptionHi: 'क्या प्रशिक्षण के बाद शिक्षार्थी उच्च शिक्षा प्राप्त कर सकता है?',
+    icon: 'GraduationCap',
+  },
+  {
+    id: 'social-perception',
+    name: 'Social Perception',
+    nameHi: 'सामाजिक धारणा',
+    description: 'How is this career viewed in the community?',
+    descriptionHi: 'समुदाय में इस करियर को कैसे देखा जाता है?',
+    icon: 'Users',
+  },
+  {
+    id: 'training-quality',
+    name: 'Training Quality',
+    nameHi: 'प्रशिक्षण गुणवत्ता',
+    description: 'Is the training provider reliable and well-equipped?',
+    descriptionHi: 'क्या प्रशिक्षण प्रदाता विश्वसनीय और सुसज्जित है?',
+    icon: 'Award',
+  },
+];
